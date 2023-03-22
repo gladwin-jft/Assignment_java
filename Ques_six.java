@@ -1,4 +1,4 @@
-import java.util.Arrays;//Question Six
+import java.util.Arrays;//Question 6
 import java.util.Random;
 import java.util.HashMap;
 
