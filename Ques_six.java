@@ -21,7 +21,7 @@ public class Ques_six {
 		Scanner in = new Scanner(System.in);
 		int i = 0, value = 0, sum = 0;
 
-		while (i < 10) {
+		while (i < 10) {//takes input from user
 			System.out.println("Enter Values between 1 - 10");
 			value = in.nextInt();
 			if (value < 1 || value > 10)
@@ -46,7 +46,7 @@ public class Ques_six {
 		System.out.println("Array with missing value: ");
 		System.out.println(Arrays.toString(array) + "\n");// prints array with missing value
 
-		System.out.println("The missing number is : " + (sum - Arrays.stream(array).sum()));
+		System.out.println("The missing number is : " + (sum - Arrays.stream(array).sum()));//prints missing element
 
 	}
 
