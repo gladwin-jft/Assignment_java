@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Ques_two 
 {
-    public static void main(String[] args)
+    public static void main(String[] args)//Question 2
     {
         //Define a class which has a main method, it initializes 
         // an integer array , display its element and it sum
