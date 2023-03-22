@@ -1,8 +1,8 @@
-import java.util.Arrays;//Question 6
+import java.util.Arrays;
 import java.util.Random;
 import java.util.HashMap;
 
-public class temp {
+public class Ques_six {
     
     public static void main(String[] args) 
     {
