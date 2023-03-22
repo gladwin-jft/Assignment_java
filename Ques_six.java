@@ -41,7 +41,7 @@ public class Ques_six {
 
 		int randomIndex = rand.nextInt(10);
 
-		array[randomIndex] = 0;
+		array[randomIndex] = 0;//Inserts 0 at random index
 
 		System.out.println("Array with missing value: ");
 		System.out.println(Arrays.toString(array) + "\n");// prints array with missing value
