@@ -17,11 +17,11 @@ public class Ques_six {
 		 * and display the missing element ( which is replaced by zero).
 		 */
 
-		int[] array = new int[10];
+		int[] array = new int[10];// array of size 10 initializes
 		Scanner in = new Scanner(System.in);
 		int i = 0, value = 0, sum = 0;
 
-		while (i < 10) {
+		while (i < 10) {// User Enter values from 1 - 10 
 			System.out.println("Enter Values between 1 - 10");
 			value = in.nextInt();
 			if (value < 1 || value > 10)
@@ -35,28 +35,19 @@ public class Ques_six {
 			}
 		}
 
-		// int sum = (array.length / 2) * (array.length + 1);
+		
 
 		Random rand = new Random();
 
-		/*
-		 * for (int i = 0; i < array.length; i++)
-		 * {
-		 * int randomIndexToSwap = rand.nextInt(array.length);
-		 * int temp = array[randomIndexToSwap];
-		 * array[randomIndexToSwap] = array[i];
-		 * array[i] = temp;
-		 * 
-		 * }
-		 */
+		
 
-		int randomIndex = rand.nextInt(10);
+		int randomIndex = rand.nextInt(10); // Random index is created and 0 is inserted in random index
 
 		array[randomIndex] = 0;
 
-		System.out.println(Arrays.toString(array));
+		System.out.println(Arrays.toString(array));// array is displayed with missing number 
 
-		System.out.println("The missing number is : " + (sum - Arrays.stream(array).sum()));
+		System.out.println("The missing number is : " + (sum - Arrays.stream(array).sum()));// missing number is displayed
 
 	}
 
