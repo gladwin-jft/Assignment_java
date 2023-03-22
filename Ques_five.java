@@ -1,4 +1,4 @@
-public class Ques_five
+public class Ques_five//Question 5
 {
     public static void main(String[] args)
     {
