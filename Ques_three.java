@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Ques_three 
+public class Ques_three //Question Three
 {
     public static void main(String [] args)
     {
