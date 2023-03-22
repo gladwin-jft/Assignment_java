@@ -1,4 +1,4 @@
-public class Ques_four//Question four
+public class Ques_four//Question Four
 {
 
        
